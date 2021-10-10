@@ -1,0 +1,135 @@
+body {
+
+  background-color: white;
+  margin: 10px;
+  padding: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+ margin: 10px;
+ text-align: center;
+ font-family: Arial, sans-serif;
+ font-size: 175%;
+ color: black;
+}
+
+h2 {
+border: 1px solid black;
+margin-top: 10px;
+margin-right: 10px;
+margin-left: 200px;
+margin-bottom: 10px;
+width: 100px;
+height: 30px;
+padding: 2px;
+font-family: 'Trebuchet MS', sans-serif;
+text-align: center;
+font-size: 125%;
+position: absolute;
+}
+
+#h2a {
+  background-color: lightcoral;
+  color: white;
+}
+
+#h2b {
+  background-color: burlywood;
+  color: black;
+}
+
+#h2c {
+  background-color: darkorange;
+  color: whitesmoke;
+}
+
+p {
+  border: 1px solid black;
+  background-color: rosybrown;
+  height: 150px;
+  margin: 10px;
+  padding-top: 50px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-family: Tahoma, sans-serif;
+  font-size: 15px;
+  text-align: left;
+  overflow: auto;
+}
+
+ #p1 {
+ color: black;
+ }
+
+#p2 {
+ color: black;
+ }
+
+ #p3 {
+ color: black;
+ }
+ 
+/* Simple Responsive Framework. */
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3
+  {
+    float: left;
+  }
+  .col-lg-1 {
+    width: 33.33%;
+  }
+  .col-lg-2 {
+    width: 66.66%;
+  }
+  .col-lg-3 {
+    width: 100%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) 
+{
+  .col-md-1, .col-md-2, .col-md-3 {
+    float: left;
+  }
+  
+  .col-md-1 {
+    width: 50%;
+  }
+  .col-md-2 {
+    width: 100%;
+  }
+  .col-md-3 {
+    width: 100%;
+  }
+}
+
+/********** Small devices only **********/
+@media (min-width: 20px) and (max-width: 767px) 
+{
+  .col-md-1, .col-md-2, .col-md-3
+   {
+  float: left;
+  }
+  .col-sm-1 {
+    width: 100%;
+  }
+  .col-sm-2 {
+    width: 100%;
+  }
+  .col-sm-3 {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
